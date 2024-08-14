@@ -1,7 +1,7 @@
 import numpy as np
 import dash
 from dash import dcc, html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
 from ModulationPlotter import ModulationPlotter
 
@@ -37,14 +37,14 @@ app.layout = html.Div([
     html.Label("Frequência de Modulação (f_mod) em Hz:"),
     dcc.Slider(
         id='f_mod-slider',
-        min=1.0, max=500, step=10, value=60.0,
+        min=1.0, max=500, step=10, value=300.0,
         marks={i: str(i) for i in np.arange(1.0, 500, 10)}
     ),
 
     html.Label("Fase de Modulação (phase_mod) em radianos:"),
     dcc.Slider(
         id='phase_mod-slider',
-        min=0, max=2*np.pi, step=0.1, value=0,
+        min=0, max=2*np.pi, step=0.1, value=0*np.pi,
         marks={i: f"{i:.1f}" for i in np.arange(0, 2*np.pi+0.1, 0.5)}
     ),
 
