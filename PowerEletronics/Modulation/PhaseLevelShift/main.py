@@ -16,14 +16,14 @@ app.layout = html.Div([
     html.Label("Índice de Modulação (m_mod):"),
     dcc.Slider(
         id='m_mod-slider',
-        min=0.1, max=1.0, step=0.001, value=0.9,
+        min=0.1, max=1.0, step=0.001, value=0.6,
         marks={i: str(i) for i in np.arange(0.1, 1.1, 0.1)}
     ),
 
     html.Label("Frequência da Portadora (f_car) em Hz:"),
     dcc.Slider(
         id='f_car-slider',
-        min=1000, max=10000, step=500, value=3000,
+        min=1000, max=10000, step=500, value=2000,
         marks={i: str(i) for i in range(1000, 10500, 500)}
     ),
 
@@ -37,7 +37,7 @@ app.layout = html.Div([
     html.Label("Frequência de Modulação (f_mod) em Hz:"),
     dcc.Slider(
         id='f_mod-slider',
-        min=1.0, max=500, step=10, value=300.0,
+        min=1.0, max=500, step=10, value=160.0,
         marks={i: str(i) for i in np.arange(1.0, 500, 10)}
     ),
 
