@@ -1,8 +1,24 @@
-# Todo
+# To do (Personal)
 
-You can create todos in Foam.
 
-- [x] This is an example of a todo list item that's complete
-- [ ] This one is not completed yet
-- [ ] You can mark it completed by pressing `Option`+`C` (or `Alt`+`C`) when your cursor is on this line
-  - [ ] You can also select multiple lines and mark them all at once!
+
+# To do (Mestrado)
+
+- [x] Etapas Iniciais
+  - [x] Criar email UFSC
+  - [x] Criar Teams UFSC
+  - [x] Pedir informacoes para o orientador pelo teams
+  - [ ] Criar assinatura digital
+
+- [ ] Validar disciplinas
+  - [ ] Definir orientador Formalmente
+    - [ ] Definir Tema do trabalho
+
+- [ ] Proficiencia em Ingles
+
+# To do (Work)
+
+- [ ] Arrumar recebimento comunicacao das celulas
+- [ ] Arrumar erro de recebimento da CIB
+- [ ] Visualizar 9 niveis em bancada
+  - [ ] Prototipo de subtrator para verificar os niveis de tensao das celulas
