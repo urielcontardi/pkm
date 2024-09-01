@@ -1,19 +1,17 @@
 # To do (Personal)
 
-
-
 # To do (Mestrado)
 
-- [x] Etapas Iniciais
-  - [x] Criar email UFSC
-  - [x] Criar Teams UFSC
-  - [x] Pedir informacoes para o orientador pelo teams
-  - [ ] Criar assinatura digital
+- [X] Etapas Iniciais
 
+  - [X] Criar email UFSC
+  - [X] Criar Teams UFSC
+  - [X] Pedir informacoes para o orientador pelo teams
+  - [ ] Criar assinatura digital
 - [ ] Validar disciplinas
+
   - [ ] Definir orientador Formalmente
     - [ ] Definir Tema do trabalho
-
 - [ ] Proficiencia em Ingles
 
 # To do (Work)
