@@ -4,4 +4,4 @@
 - Perforce
 - Estudar RUST
 - Estudar C++
-- Curso
+- ARINC 653 / DO-178
