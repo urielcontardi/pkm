@@ -10,9 +10,9 @@
   - [X] Criar assinatura digital
 - [ ] Validar disciplinas
 
-  - [ ] Definir orientador Formalmente
-    - [ ] Definir Tema do trabalho
-    - [ ] Realizar cronograma
+  - [X] Definir orientador Formalmente
+
+- [ ] Realizar cronograma
 - [ ] Proficiencia em Ingles
 
 # To do (Work)
