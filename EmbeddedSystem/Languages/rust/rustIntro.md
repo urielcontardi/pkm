@@ -3,7 +3,6 @@
 Rust foi criado por Graydon Hoare, e o desenvolvimento começou em 2006 enquanto ele trabalhava na Mozilla. O objetivo inicial era criar uma linguagem que oferecesse segurança e concorrência sem sacrificar o desempenho. Rust foi projetado para superar algumas limitações de linguagens de sistemas existentes, como C e C++, com um foco particular na segurança da memória e na prevenção de erros comuns de programação.
 
 - Uma das premissas é ser uma alternativa segura de linguagem de desenvolvimento de software de baixo nivel.
-
 - O compilador verifica o uso da memoria em tempo de compilacao.
 
 **Marcos importantes na história de Rust:**
@@ -57,6 +56,3 @@ Rust tem evoluído constantemente desde então, com atualizações regulares e u
 - **Trait System:** Traits são semelhantes a interfaces em outras linguagens e permitem a definição de funcionalidades que podem ser implementadas por diferentes tipos.
 
 Essas características fazem de Rust uma linguagem muito robusta e confiável, adequada para uma variedade de aplicações, desde sistemas embutidos até grandes aplicações web. Se tiver mais perguntas ou quiser aprofundar algum desses tópicos, é só dizer!
-
-
-## Ownership
