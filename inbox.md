@@ -3,8 +3,6 @@
 - Estudar RUST
 - Estudar C++
 - ARINC 653 / DO-178
-- jabref
-- Revisão sobre Simulação e Hardware in the loop
 - [Home - AirSim (microsoft.github.io)](https://microsoft.github.io/AirSim/)
 - [Cyberbotics: Robotics simulation with Webots](https://cyberbotics.com/)
 - [CARLA Simulator](https://carla.org/)
