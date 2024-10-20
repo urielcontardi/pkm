@@ -1,0 +1,64 @@
+# Unix
+
+**Unix** é um sistema operacional multitarefa e multiusuário originalmente desenvolvido nos anos 1970 nos laboratórios da **AT&T Bell Labs** por **Ken Thompson**, **Dennis Ritchie** e outros. Foi projetado para ser um sistema eficiente e simples, inicialmente voltado para pesquisadores e desenvolvedores. Ao longo dos anos, Unix se tornou a base para muitos sistemas operacionais modernos, incluindo Linux, macOS e BSD.
+
+## Características principais do Unix
+
+1. **Multitarefa**: Unix permite que vários programas sejam executados ao mesmo tempo.
+2. **Multiusuário**: Vários usuários podem usar o sistema simultaneamente e de maneira independente.
+3. **Portabilidade**: Unix foi escrito em **C**, o que facilitou sua adaptação a diferentes tipos de hardware.
+4. **Hierarquia de arquivos**: Unix organiza os arquivos em uma estrutura de diretórios hierárquica, semelhante a uma árvore.
+5. **Conceito de Arquivo**: Em Unix, quase tudo é tratado como um arquivo, incluindo dispositivos de hardware e processos.
+6. **Ferramentas pequenas e modulares**: Unix é conhecido por fornecer pequenas ferramentas que realizam tarefas específicas, permitindo que elas sejam combinadas para realizar tarefas mais complexas.
+7. **Interface de Linha de Comando (CLI)**: A interação com o sistema Unix geralmente ocorre por meio de uma interface de linha de comando poderosa e flexível.
+
+## História do Unix
+
+- **1969**: Unix começou como um projeto de pesquisa nos laboratórios da AT&T Bell Labs.
+- **1971**: Primeira versão oficial do Unix foi lançada.
+- **1973**: Unix foi reescrito na linguagem C, facilitando sua portabilidade para diferentes plataformas.
+- **Final dos anos 1970**: Unix começou a se espalhar para universidades, com a **Universidade da Califórnia, Berkeley** desenvolvendo sua própria versão, chamada **BSD (Berkeley Software Distribution)**.
+- **1980s**: Com o crescente interesse comercial, surgiram muitas variantes proprietárias de Unix, como **AIX** (IBM), **HP-UX** (Hewlett-Packard) e **Solaris** (Sun Microsystems).
+- **1990s**: Com o surgimento de sistemas como **Linux** e a expansão da internet, Unix continuou a ser uma base importante, mas sistemas de código aberto começaram a ganhar mais popularidade.
+
+## Filosofia Unix
+
+A filosofia Unix pode ser resumida em alguns princípios fundamentais:
+
+1. **Faça uma coisa e faça bem**: Cada programa deve ser simples e especializado em uma única tarefa.
+2. **Tudo é um arquivo**: Tratar dispositivos e interações como arquivos facilita o design do sistema.
+3. **Combinabilidade**: Programas devem ser projetados para trabalhar juntos, usando pipes e redirecionamento para conectar comandos.
+4. **Uso de texto simples**: A preferência por arquivos de texto para armazenamento e comunicação torna a manipulação de dados mais direta e portátil.
+
+## Arquitetura do Unix
+
+O Unix é composto de três partes principais:
+
+1. **Núcleo (Kernel)**: O núcleo do sistema que gerencia os recursos de hardware, como memória, CPU e dispositivos de entrada/saída. Ele também gerencia processos e a comunicação entre eles.
+2. **Shell**: A interface entre o usuário e o sistema. O shell interpreta os comandos do usuário e os traduz em instruções que o kernel pode executar.
+3. **Utilitários**: Ferramentas e programas que oferecem funcionalidades adicionais, como manipulação de arquivos, edição de texto, gerenciamento de processos, etc.
+
+## Unix e suas variantes
+
+- **BSD (Berkeley Software Distribution)**: Uma versão do Unix desenvolvida pela Universidade de Berkeley, famosa por seu foco em rede e segurança.
+- **Linux**: Um sistema operacional **inspirado** no Unix, criado por **Linus Torvalds** em 1991. Ele é um sistema **Unix-like**, mas sem usar o código original do Unix.
+- **macOS**: O sistema operacional da Apple, derivado de BSD, é um sistema certificado como **compatível com Unix**.
+
+## Unix no contexto moderno
+
+- O Unix original é raramente usado diretamente hoje, mas sua arquitetura e filosofia continuam a influenciar muitos sistemas operacionais modernos.
+- **Linux** e **macOS** são exemplos de sistemas amplamente usados que seguem os princípios de Unix.
+- Muitas versões comerciais de Unix, como **AIX**, **Solaris**, e **HP-UX**, ainda são usadas em servidores, data centers e ambientes corporativos.
+
+## Relação com **[[POSIX]]**
+
+O **[[POSIX]]** é um conjunto de padrões que visa garantir compatibilidade entre sistemas operacionais baseados em Unix. Ele define como a interface de um sistema Unix-like deve se comportar, permitindo que programas escritos para um sistema compatível com POSIX possam ser executados em outros sistemas POSIX com pouca ou nenhuma modificação.
+
+## Conclusão
+
+O Unix teve um impacto profundo no desenvolvimento de sistemas operacionais e na computação moderna. Embora o sistema original tenha evoluído e dado origem a várias versões, como o BSD e Linux, seus conceitos básicos ainda são fundamentais para o design de sistemas operacionais atuais.
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[POSIX]: ../UNIX/POSIX.md "POSIX"
+[//end]: # "Autogenerated link references"
